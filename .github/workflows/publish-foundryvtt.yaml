@@ -12,9 +12,21 @@ jobs:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
         with:
-          node-version: '22.x'
+          node-version: ${{ env.node_version }}
+
+      # cache deps
+      - name: Cache Node.js modules
+        uses: actions/cache@v4
+        with:
+          path: .npm
+          key: ${{ runner.OS }}-node-${{ hashFiles('**/package-lock.json') }}
+          restore-keys: |
+            ${{ runner.OS }}-node-
+            ${{ runner.OS }}-
+
       # install deps
-      # - run: npm ci
+      - run: npm ci --cache .npm --prefer-offline
+
       # # build sass, pack packs, run rollup
       - run: npm run build
 
