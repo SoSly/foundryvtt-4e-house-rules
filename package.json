@@ -18,9 +18,9 @@
     },
     "scripts": {
         "build": "npm run lint:code && npm run build:code",
-        "build:code": "rollup --config rollup.config.mjs",
+        "build:code": "npx rollup --config rollup.config.mjs",
         "lint:code": "npx eslint -c .eslintrc.json src/*/**.js",
-        "watch:build:code": "rollup --config rollup.config.mjs --watch",
+        "watch:build:code": "npx rollup --config rollup.config.mjs --watch",
         "watch:lint:code": "npm-watch lint:code"
     },
     "devDependencies": {
@@ -35,5 +35,8 @@
         "rollup-plugin-combine": "^2.1.1",
         "rollup-plugin-copy": "^3.5.0",
         "rollup-plugin-match": "^1.0.0"
+    },
+    "optionalDependencies": {
+        "@rollup/rollup-linux-x64-gnu": "^4.21.0"
     }
 }
