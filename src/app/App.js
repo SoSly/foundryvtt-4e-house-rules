@@ -1,4 +1,4 @@
-import {Logger, LogLevels} from '/Logger';
+import {Logger, LogLevels} from './Logger';
 import {Action as LongRestAction} from '../longRest/action';
 import {onActorSheetRendered} from '../longRest/handler';
 import {Settings} from '../settings/Settings';

@@ -9,7 +9,7 @@
       "chat": {
         "message": "{name} takes a long rest.",
         "surge": "{name} spends {surges} healing surges, regaining {hp} hit points.",
-        "surgeWithBonus": "{name} spends {surges} healing surges with a {bonus}, regaining {hp} hit points.",
+        "surgeWithBonus": "{name} spends {surges} healing surges with a {bonus} bonus, regaining {hp} hit points.",
         "daily": "{name} recharges their {power} daily power."
       },
       "benefits": [
