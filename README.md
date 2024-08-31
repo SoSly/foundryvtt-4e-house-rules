@@ -1,7 +1,7 @@
 [![Check Actions Status](https://github.com/SoSly/foundryvtt-4e-house-rules/workflows/checks/badge.svg)](https://github.com/SoSly/foundryvtt-4e-house-rules/actions)
 [![Downloads](https://img.shields.io/github/downloads/SoSly/foundryvtt-4e-house-rules/latest/module.zip)](https://github.com/SoSly/foundryvtt-4e-house-rules/releases/latest)
 [![Forge Install %](https://img.shields.io/badge/dynamic/json?label=Forge%20Installs&query=package.installs&suffix=%25&url=https%3A%2F%2Fforge-vtt.com%2Fapi%2Fbazaar%2Fpackage%2Ffate-system-extras&colorB=4aa94a)](https://forge-vtt.com/bazaar#package=fate-system-extras)
-[![Foundry Hub Endorsements](https://img.shields.io/endpoint?logoColor=white&url=https%3A%2F%2Fwww.foundryvtt-hub.com%2Fwp-json%2Fhubapi%2Fv1%2Fpackage%2Ffate-system-extras%2Fshield%2Fendorsements)](https://www.foundryvtt-hub.com/package/fate-system-extras/)
+[![Foundry Hub Endorsements](https://img.shields.io/endpoint?logoColor=white&url=https%3A%2F%2Fwww.foundryvtt-hub.com%2Fwp-json%2Fhubapi%2Fv1%2Fpackage%2Fsosly-4e-house-rules%2Fshield%2Fendorsements)](https://www.foundryvtt-hub.com/package/sosly-4e-house-rules/)
 [![Supported Foundry Versions](https://img.shields.io/endpoint?url=https://foundryshields.com/version?url=https://raw.githubusercontent.com/SoSly/foundryvtt-4e-house-rules/main/module.json)](https://foundryvtt.com/)
 
 # SoSly 4e House Rules
