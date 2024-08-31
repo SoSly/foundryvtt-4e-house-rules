@@ -1,0 +1,26 @@
+sosly:
+  longRest:
+    take: Take a long rest
+    hint: If it has been at least 12 hours since your last long rest, spend at least 6 hours sleeping or otherwise relaxing to gain the following benefits
+    surgesToSpend: Number of surges to spend
+    bonusHealing: Situational bonus healing
+    daily: Daily power to recharge
+    chat:
+      message: '{name} takes a long rest.'
+      surge: '{name} spends {surges} healing surges, regaining {hp} hit points.'
+      surgeWithBonus: '{name} spends {surges} healing surges with a {bonus} bonus, regaining {hp} hit points.'
+      daily: '{name} recharges their {power} daily power.'
+    benefits:
+      - Regain the use of all expended encounter powers and other per-encounter resources.
+      - Regain 1 healing surge.
+      - Regain 1 daily power.
+      - Reset magic item uses.
+      - Spend as many available healing surges as desired.
+
+  settings:
+    longRests:
+      name: Long Rests
+      hint: >
+        When this rule is enabled, a new type of rest button appears on the character sheet.
+        During a long rest, characters regain 1 daily power and 1 healing surge per tier. 
+        See the README for more information.

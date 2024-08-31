@@ -4,8 +4,6 @@
 [![Foundry Hub Endorsements](https://img.shields.io/endpoint?logoColor=white&url=https%3A%2F%2Fwww.foundryvtt-hub.com%2Fwp-json%2Fhubapi%2Fv1%2Fpackage%2Ffate-system-extras%2Fshield%2Fendorsements)](https://www.foundryvtt-hub.com/package/fate-system-extras/)
 [![Supported Foundry Versions](https://img.shields.io/endpoint?url=https://foundryshields.com/version?url=https://raw.githubusercontent.com/nivthefox/foundryvtt-fate-system-extras/main/module.json)](https://foundryvtt.com/)
 
-# Fate System Extras
-
-This module is a collection of house rules for the D&D 4th Edition ruleset. It is designed to be used with the
-[D&D 4th Edition](https://foundryvtt.com/packages/dnd4e) system for Foundry VTT.
-
+# SoSly 4e House Rules
+This module is a collection of house rules for the 4th Edition of Dungeons & Dragons. It is designed to be used by the
+Society of Silliness, a group of friends who play D&D together.

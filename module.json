@@ -1,0 +1,43 @@
+{
+  "id": "sosly-4e-house-rules",
+  "title": "[SoSly] 4E House Rules",
+  "description": "A collection of house rules for 4th Edition D&D, created for the Society of Silliness",
+  "version": "1.0.0",
+  "sheetVersion": 1,
+  "authors": [
+    {
+      "name": "nivthefox",
+      "discord": "nivthefox"
+    }
+  ],
+  "compatibility": {
+    "minimum":  "12",
+    "verified": "12"
+  },
+  "relationships": {
+    "systems": [
+      {
+        "id": "dnd4e",
+        "type": "system",
+        "compatibility": {}
+      }
+    ]
+  },
+  "esmodules": [
+    "./4e-house-rules.js",
+    "./4e-house-rules.test.js"
+  ],
+  "languages": [
+    {
+      "lang": "en",
+      "name": "English",
+      "path": "lang/en.json"
+    }
+  ],
+  "url":		"https://github.com/sosly/foundryvtt-4e-house-rules",
+  "license":	"https://github.com/sosly/foundryvtt-4e-house-rules/LICENSE",
+  "manifest":	"https://github.com/sosly/foundryvtt-4e-house-rules/bundle/module.json",
+  "download":	"https://github.com/sosly/foundryvtt-4e-house-rules/bundle/foundryvtt-4e-house-rules.zip",
+  "readme":	    "https://github.com/sosly/foundryvtt-4e-house-rules/README.md",
+  "changelog":  "https://github.com/sosly/foundryvtt-4e-house-rules/CHANGELOG.md"
+}
